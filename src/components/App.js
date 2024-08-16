@@ -12,9 +12,8 @@ function App() {
     <div>
       <NavBar />
       <Home name={user.name} city={user.city} color={user.color} />
-      <About github={user.links.github} linkedin={user.links.linkedin} bio={user.bio}/>
+      <About bio={user.bio} github = {user.links.github} linkedin = {user.links.linkedin} />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
